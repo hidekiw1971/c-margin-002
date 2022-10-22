@@ -1,0 +1,20 @@
+@use "global" as *;
+.article {
+  background: rgba(51, 51, 51, 1);
+  color: #fff;
+  padding: rem(8) 0;
+  text-align: center;
+  @include mq(md) {
+    max-width: rem(900);
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: rem(50);
+  }
+}
+
+.article-wrapper {
+  background: rgba(255, 136, 255, 1);
+  @include mq(md) {
+    margin: 0 rem(20);
+  }
+}

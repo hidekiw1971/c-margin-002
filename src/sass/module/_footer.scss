@@ -1,0 +1,18 @@
+@use "global" as *;
+.footer {
+  margin: 0 auto;
+  margin-bottom: rem(50);
+  text-align: center;
+  background: rgba(255, 153, 153, 1);
+  @include mq(md) {
+    max-width: rem(1200);
+    width: 100%;
+  }
+}
+
+.footer__wrapper {
+  background: rgba(68, 204, 255, 1);
+  @include mq(md) {
+    margin: 0 rem(20);
+  }
+}
