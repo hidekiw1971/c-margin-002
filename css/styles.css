@@ -232,8 +232,7 @@ select::-ms-expand {
   .header {
     max-width: 68.75rem;
     width: 100%;
-    margin: 0 auto;
-    margin-bottom: 3.125rem;
+    margin: 3.125rem auto;
   }
 }
 
